@@ -1,11 +1,22 @@
-import styles from './Header.module.scss'
+import { IoMdArrowBack } from 'react-icons/io'
 import { useAuth } from '../../../hooks/useAuth.js'
+import Hamburger from '../hamburger/Hamburger.jsx'
+import styles from './Header.module.scss'
 
 const Header = ({ backLink }) => {
 	/* TODO: React router useHistory */
+
 	const { isAuth } = useAuth()
 
-	return <div className={styles.header}>Header</div>
+	return (
+		<header className={styles.header}>
+			<button>
+				<IoMdArrowBack />
+			</button>
+			{/* User profile */}
+			<Hamburger />
+		</header>
+	)
 }
 
 export default Header

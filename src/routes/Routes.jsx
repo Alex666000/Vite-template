@@ -1,9 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
 import { useAuth } from '../hooks/useAuth'
-
 import NotFound from '../components/screens/not-found/NotFound'
-
 import { routes } from './routes.data'
 
 const Router = () => {
