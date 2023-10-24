@@ -23,7 +23,7 @@ module.exports = {
             'error',
             { props: 'never', children: 'never' },
         ],
-        '@typescript-eslint/no-use-before-define': 'off',
+        'max-len': ['error', { code: 180, ignoreComments: true }],
         'react/prop-types': 'off',
         'react-refresh/only-export-components': [
             'warn',
