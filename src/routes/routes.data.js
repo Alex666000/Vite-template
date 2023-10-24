@@ -1,5 +1,5 @@
 import Auth from '../components/screens/auth/Auth'
-import Home from '../components/screens/home/Home.jsx'
+import Home from '../components/screens/home/Home'
 import NewWorkout from '../components/screens/new-workout/NewWorkout'
 import Profile from '../components/screens/profile/Profile'
 
@@ -7,7 +7,7 @@ export const routes = [
 	{
 		path: '/',
 		component: Home,
-		isAuth: false // для каких страниц нужна авторизация
+		isAuth: false
 	},
 	{
 		path: '/auth',
@@ -22,7 +22,7 @@ export const routes = [
 	{
 		path: '/profile',
 		component: Profile,
-		isAuth: true
+		isAuth: false
 	} /*
 	{
 		path: '/new-exercise',

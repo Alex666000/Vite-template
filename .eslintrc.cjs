@@ -13,6 +13,7 @@ module.exports = {
   plugins: ["react-refresh"],
   rules: {
     "object-curly-spacing": ["error", "always"],
+    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     "no-unused-vars": "warn",
     "react/jsx-no-undef": "warn",
     "react/jsx-indent": ["off", 2],
