@@ -19,7 +19,7 @@
 	}
 
 	font-family: $default-font;
-	letter-spacing: 0.7px;
+	letter-spacing: 0.5px;
 }
 
 *::-webkit-input-placeholder {
@@ -48,7 +48,7 @@ body {
 }
 
 body {
-	// начальные стили страницы
+	// Начальные стили страницы
 	background-color: $black; // фон экрана
 	padding: 0;
 	margin: 0;
